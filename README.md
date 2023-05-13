@@ -21,7 +21,7 @@
 | 4 | - | 중간고사 기간 | - |
 | 5 | - | 중간고사 기간 | - |
 | 6 | 5월 4일 (목)| 함수 1|[[PDF]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/06주차_05월_04일/06주차_함수1.pdf) [[PPT]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/06주차_05월_04일/06주차_함수1.pptx) |
-| 7 | 5월 12일 (금)| 1. 반복문</br> 2. 분기문</br> 3. 반복문with분기문_연습문제 | [[PDF]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/07주차_05월_12일/07주차_1_반복문.pdf) [[PPT]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/07주차_05월_12일/07주차_1_반복문.pptx) </br>[[PDF]]((https://github.com/2daeeun/C_freshman_tutoring/raw/main/07주차_05월_12일/07주차_2_분기문.pdf)) [[PPT]]((https://github.com/2daeeun/C_freshman_tutoring/raw/main/07주차_05월_12일/07주차_2_분기문.pptx) </br>[[PDF]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/07주차_05월_12일/반복문with분기문_연습문제.pdf) [[HWP]]((https://github.com/2daeeun/C_freshman_tutoring/raw/main/07주차_05월_12일/반복문with분기문_연습문제.hwp))|
+| 7 | 5월 12일 (금)| 1. 반복문</br> 2. 분기문</br> 3. 반복문with분기문_연습문제 | [[PDF]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/07주차_05월_12일/07주차_1_반복문.pdf) [[PPT]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/07주차_05월_12일/07주차_1_반복문.pptx) </br>[[PDF]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/07주차_05월_12일/07주차_2_분기문.pdf)[[PPT]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/07주차_05월_12일/07주차_2_분기문.pptx) </br>[[PDF]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/07주차_05월_12일/반복문with분기문_연습문제.pdf) [[HWP]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/07주차_05월_12일/반복문with분기문_연습문제.hwp))|
 | 8 | 5월 19일 (금)| 1. 배열</br> 2. 함수2 | [[PDF]](url) [[PPT]](url) </br>[[PDF]](url) [[PPT]](url) |
 | 9 | 5월 26일 (금)| 포인터 | [[PDF]](url) [[PPT]](url) |
 
