@@ -1,5 +1,5 @@
 # 1학년 신입생들을 대상으로 하는 튜터링
-* 활동 기간 : 2023.03.20 ~ 2023.?.?
+* 활동 기간 : 2023.03.20 ~ 2023.5.26
 * 활동 시간 : 매주 금요일 오전 10시
 * 활동 장소 : 학과에 남는 빈 강의실
 
@@ -22,9 +22,10 @@
 | 5 | - | 중간고사 기간 | - |
 | 6 | 5월 4일 (목)| 함수 1|[[PDF]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/06주차_05월_04일/06주차_함수1.pdf) [[PPT]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/06주차_05월_04일/06주차_함수1.pptx) |
 | 7 | 5월 12일 (금)| 1. 반복문</br> 2. 분기문</br> 3. 반복문&분기문_연습문제 | [[PDF]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/07주차_05월_12일/07주차_1_반복문.pdf) [[PPT]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/07주차_05월_12일/07주차_1_반복문.pptx) </br>[[PDF]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/07주차_05월_12일/07주차_2_분기문.pdf) [[PPT]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/07주차_05월_12일/07주차_2_분기문.pptx) </br> [[PDF]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/07주차_05월_12일/반복문with분기문_연습문제.pdf) [[HWP]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/07주차_05월_12일/반복문with분기문_연습문제.hwp)|
-| 8 | 5월 19일 (금)| 1. 배열</br> 2. 배열이 인덱스가 0부터 시작하는 이유 </br> 3. 배열 연습문제| [[PDF]](url) [[PPT]](url) </br>[[PDF]](url) [[PPT]](url) </br>[[PDF]](url) [[PPT]](HWP)|
-| 9 | 5월 26일 (금)| 함수 2 | [[PDF]](url) [[PPT]](url) |
+| 8 | 5월 19일 (금)| 1. 배열</br> 2. 배열이 인덱스가 0부터 시작하는 이유 </br> 3. 배열 연습문제| [[PDF]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/08주차_05월_19일/08주차_1_배열1.pdf) [[PPT]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/08주차_05월_19일/08주차_1_배열1.pptx) </br>[[PDF]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/08주차_05월_19일/배열의_시작이_0인_이유.pdf) </br>[[PDF]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/08주차_05월_19일/배열_연습문제.pdf) [[HWP]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/08주차_05월_19일/배열_연습문제.hwp)|
+| 9 | 5월 26일 (금)| 함수 2 | [[PDF]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/09주차_05월_26일/09주차_1_함수2.pdf) [[PPT]](https://github.com/2daeeun/C_freshman_tutoring/raw/main/09주차_05월_26일/09주차_1_함수2.pptx) |
 
 파일 암호 : 빨간색 슈트 입은 금발 독일인 생일  
 [PPT 템플릿 출처](https://slidesgo.com/theme/retato-slideshow#search-simple+blue&position-14&results-298&rs=search)  
 [PPT에 사용한 폰트 출처](https://afplay.tistory.com/2449)
+
