@@ -15,9 +15,9 @@ char a;
 
 while (1)
 {
-	a = getchar();
+    a = getchar();
 	
-	if (a == '\n')
-		break;
+    if (a == '\n')
+        break;
 }
 ```
