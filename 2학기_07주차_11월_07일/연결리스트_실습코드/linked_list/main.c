@@ -1,39 +1,93 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
 
+// ì—°ê²° ë¦¬ìŠ¤íŠ¸ì˜ ë…¸ë“œë¥¼ ë‚˜íƒ€ë‚´ëŠ” êµ¬ì¡°ì²´
+typedef struct node
+{
+    int data;
+    struct node* next;
+} NODE;
+
+// ìƒˆë¡œìš´ ë…¸ë“œë¥¼ ìƒì„±í•˜ëŠ” í•¨ìˆ˜
+NODE* create_node(int value)
+{
+    NODE* new_node = (NODE*)malloc(sizeof(NODE));
+
+    if (new_node == NULL)
+    {
+        printf("ë©”ëª¨ë¦¬ í• ë‹¹ ì˜¤ë¥˜\n");
+        exit(EXIT_FAILURE);
+    }
+    new_node->data = value;
+    new_node->next = NULL;
+
+    return new_node;
+}
+
+// ì—°ê²° ë¦¬ìŠ¤íŠ¸ì— ë…¸ë“œë¥¼ ì¶”ê°€í•˜ëŠ” í•¨ìˆ˜
+void insert_node(NODE** head, int value)
+{
+    NODE* new_node = create_node(value);
+
+    if (*head == NULL)
+    {
+        // ë¦¬ìŠ¤íŠ¸ê°€ ë¹„ì–´ìˆì„ ê²½ìš°
+        *head = new_node;
+    }
+    else
+    {
+        // ë¦¬ìŠ¤íŠ¸ê°€ ë¹„ì–´ìˆì§€ ì•Šì„ ê²½ìš°
+        NODE* temp = *head;
+        while (temp->next != NULL)
+        {
+            temp = temp->next;
+        }
+        temp->next = new_node;
+    }
+}
+
+// ì—°ê²° ë¦¬ìŠ¤íŠ¸ì˜ ë…¸ë“œë¥¼ ì¶œë ¥í•˜ëŠ” í•¨ìˆ˜
+void print_list(NODE* head)
+{
+    NODE* temp = head;
+    while (temp != NULL)
+    {
+        printf("%d -> ", temp->data);
+        temp = temp->next;
+    }
+    printf("NULL\n");
+}
+
+// ë©”ëª¨ë¦¬ í•´ì œ í•¨ìˆ˜
+void free_list(NODE* head)
+{
+    NODE* temp;
+    while (head != NULL)
+    {
+        temp = head;
+        head = head->next;
+        free(temp);
+    }
+    printf("ë©”ëª¨ë¦¬ í•´ì œ ì™„ë£Œ\n");
+}
 
 int main()
 {
-	int choice;
-	while (1)
-	{
-		system("cls"); //ÄÜ¼ÖÈ­¸é Áö¿ì±â (ÃÊ±âÈ­)
-		printf("\n\n  *** ´ÜÀÏ ¿¬°á ¸®½ºÆ® ***\n\n");
-		printf("=====================================\n");
-		printf("1. ³ëµå »ğÀÔ\n");
-		printf("2. ³ëµå »èÁ¦ (free)\n");
-		printf("3. ´ÜÀÏ ¿¬°á ¸®½ºÆ® Ãâ·Â (³ëµå ¼øÈ¸)\n");
-		printf("0. ÇÁ·Î±×·¥ Á¾·á\n");
-		printf("=====================================\n");
-		printf("\n¸Ş´º ¼±ÅÃ : ");
+    NODE* my_list = NULL;
 
-		scanf("%d", &choice);
+    // ì—°ê²° ë¦¬ìŠ¤íŠ¸ì— ë…¸ë“œ ì¶”ê°€
+    insert_node(&my_list, 10);
+    insert_node(&my_list, 20);
+    insert_node(&my_list, 30);
+    insert_node(&my_list, 40);
 
-		switch (choice)
-		{
-		case 1:
-			break;
-		case 2:
-			break;
-		case 3:
-			break;
-		case 0:
-			exit(0); //ÇÁ·Î±×·¥ °­Á¦ Á¾·á
-		}
-		//switch¹®À» ºüÁ® ³ª¿À¸é ÀÏ½Ã ´ë±â ½ÃÅ²´Ù.
-		printf("\n\n\t\t");
-		system("pause"); //ÀÏ½Ã ´ë±â
-	}
-	return 0;
+    // ì—°ê²° ë¦¬ìŠ¤íŠ¸ ì¶œë ¥
+    printf("ì—°ê²° ë¦¬ìŠ¤íŠ¸: ");
+    print_list(my_list);
+
+    // ë©”ëª¨ë¦¬ í•´ì œ
+    free_list(my_list);
+
+    return 0;
 }
