@@ -47,3 +47,6 @@
 
 파일 암호 : 빨간색 슈트 입은 금발 독일인 생일  
 [PPT 템플릿 출처](https://slidesgo.com/theme/retato-slideshow#search-simple+blue&position-14&results-298&rs=search)  
+
+##### NOTE
+* 2학기 5주 차 자료부터 자료 보충을 못함... (잠정 중단)
